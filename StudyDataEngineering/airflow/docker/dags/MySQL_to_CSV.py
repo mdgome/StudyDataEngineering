@@ -58,7 +58,8 @@ def DataToCSV(df):
     file_name = now_date+"_output.csv"
     mkdirPath = Path("./data/mysqlData")
     mkdirPath.mkdir(parents=True, exist_ok=True)
-    df.to_csv(mkdirPath/file_name,index=False)
+    result_path = os.getcwd()+ "/data/mysqlData"
+    df.to_csv(result_path,index=False)
 
 def etl():
     df = load()
