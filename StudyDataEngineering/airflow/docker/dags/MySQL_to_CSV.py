@@ -68,7 +68,7 @@ dag_second_assingnment = DAG(
     dag_id='second_assingnment',
     catchup = False,
     start_date = datetime(2022,1,19),
-    schedule_interval = '0 20 * * *'
+    schedule_interval = '0 * * * *'
 )
 
 task = PythonOperator(
