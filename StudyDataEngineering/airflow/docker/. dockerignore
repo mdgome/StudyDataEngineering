@@ -1,0 +1,10 @@
+Dockerfile*
+docker-compose*
+README.md
+.gitignore
+.circleci
+.github
+.idea
+.vscode
+logs
+tmp
