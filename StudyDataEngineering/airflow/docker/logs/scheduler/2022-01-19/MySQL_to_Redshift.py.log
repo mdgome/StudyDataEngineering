@@ -1,0 +1,244 @@
+[2022-01-19 11:42:21,974] {processor.py:163} INFO - Started process (PID=285) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:42:21,986] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:42:21,990] {logging_mixin.py:109} INFO - [2022-01-19 11:42:21,989] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:42:24,526] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:42:29,911] {logging_mixin.py:109} INFO - [2022-01-19 11:42:29,911] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2022-01-19 11:42:32,048] {logging_mixin.py:109} INFO - [2022-01-19 11:42:32,047] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2022-01-19 11:42:32,202] {logging_mixin.py:109} INFO - [2022-01-19 11:42:32,202] {manager.py:496} INFO - Created Permission View: can edit on DAG:MySQL_to_Redshift
+[2022-01-19 11:42:32,231] {logging_mixin.py:109} INFO - [2022-01-19 11:42:32,230] {manager.py:496} INFO - Created Permission View: can read on DAG:MySQL_to_Redshift
+[2022-01-19 11:42:32,235] {logging_mixin.py:109} INFO - [2022-01-19 11:42:32,233] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:42:32,267] {logging_mixin.py:109} INFO - [2022-01-19 11:42:32,266] {dag.py:2408} INFO - Creating ORM DAG for MySQL_to_Redshift
+[2022-01-19 11:42:32,318] {logging_mixin.py:109} INFO - [2022-01-19 11:42:32,317] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:42:32,377] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 10.411 seconds
+[2022-01-19 11:45:32,233] {processor.py:163} INFO - Started process (PID=732) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:45:32,238] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:45:32,242] {logging_mixin.py:109} INFO - [2022-01-19 11:45:32,241] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:45:34,945] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:45:34,984] {logging_mixin.py:109} INFO - [2022-01-19 11:45:34,982] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:45:35,057] {logging_mixin.py:109} INFO - [2022-01-19 11:45:35,056] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:45:35,087] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.861 seconds
+[2022-01-19 11:46:05,546] {processor.py:163} INFO - Started process (PID=854) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:46:05,550] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:46:05,554] {logging_mixin.py:109} INFO - [2022-01-19 11:46:05,554] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:46:08,206] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:46:08,249] {logging_mixin.py:109} INFO - [2022-01-19 11:46:08,247] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:46:08,319] {logging_mixin.py:109} INFO - [2022-01-19 11:46:08,319] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:46:08,358] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.818 seconds
+[2022-01-19 11:46:38,483] {processor.py:163} INFO - Started process (PID=1000) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:46:38,489] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:46:38,497] {logging_mixin.py:109} INFO - [2022-01-19 11:46:38,496] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:46:40,945] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:46:40,982] {logging_mixin.py:109} INFO - [2022-01-19 11:46:40,981] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:46:41,040] {logging_mixin.py:109} INFO - [2022-01-19 11:46:41,039] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:46:41,067] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.593 seconds
+[2022-01-19 11:47:11,222] {processor.py:163} INFO - Started process (PID=1143) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:47:11,226] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:47:11,229] {logging_mixin.py:109} INFO - [2022-01-19 11:47:11,229] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:47:13,965] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:47:14,010] {logging_mixin.py:109} INFO - [2022-01-19 11:47:14,009] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:47:14,079] {logging_mixin.py:109} INFO - [2022-01-19 11:47:14,078] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:47:14,107] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.893 seconds
+[2022-01-19 11:47:44,839] {processor.py:163} INFO - Started process (PID=1270) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:47:44,844] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:47:44,847] {logging_mixin.py:109} INFO - [2022-01-19 11:47:44,847] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:47:47,153] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:47:47,195] {logging_mixin.py:109} INFO - [2022-01-19 11:47:47,193] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:47:47,265] {logging_mixin.py:109} INFO - [2022-01-19 11:47:47,264] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:47:47,300] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.469 seconds
+[2022-01-19 11:48:17,831] {processor.py:163} INFO - Started process (PID=1413) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:48:17,834] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:48:17,838] {logging_mixin.py:109} INFO - [2022-01-19 11:48:17,837] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:48:20,288] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:48:20,325] {logging_mixin.py:109} INFO - [2022-01-19 11:48:20,323] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:48:20,387] {logging_mixin.py:109} INFO - [2022-01-19 11:48:20,386] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:48:20,413] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.590 seconds
+[2022-01-19 11:48:51,105] {processor.py:163} INFO - Started process (PID=1560) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:48:51,109] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:48:51,112] {logging_mixin.py:109} INFO - [2022-01-19 11:48:51,112] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:48:53,887] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:48:53,926] {logging_mixin.py:109} INFO - [2022-01-19 11:48:53,925] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:48:54,027] {logging_mixin.py:109} INFO - [2022-01-19 11:48:54,026] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:48:54,083] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.987 seconds
+[2022-01-19 11:49:24,460] {processor.py:163} INFO - Started process (PID=1682) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:49:24,466] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:49:24,471] {logging_mixin.py:109} INFO - [2022-01-19 11:49:24,470] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:49:26,820] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:49:26,862] {logging_mixin.py:109} INFO - [2022-01-19 11:49:26,861] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:49:26,986] {logging_mixin.py:109} INFO - [2022-01-19 11:49:26,986] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:49:27,028] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.576 seconds
+[2022-01-19 11:49:57,370] {processor.py:163} INFO - Started process (PID=1826) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:49:57,374] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:49:57,378] {logging_mixin.py:109} INFO - [2022-01-19 11:49:57,377] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:49:59,781] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:49:59,819] {logging_mixin.py:109} INFO - [2022-01-19 11:49:59,818] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:49:59,883] {logging_mixin.py:109} INFO - [2022-01-19 11:49:59,882] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:49:59,907] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.542 seconds
+[2022-01-19 11:50:30,283] {processor.py:163} INFO - Started process (PID=1975) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:50:30,287] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:50:30,291] {logging_mixin.py:109} INFO - [2022-01-19 11:50:30,290] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:50:33,064] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:50:33,108] {logging_mixin.py:109} INFO - [2022-01-19 11:50:33,107] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:50:33,182] {logging_mixin.py:109} INFO - [2022-01-19 11:50:33,181] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:50:33,209] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.934 seconds
+[2022-01-19 11:51:03,497] {processor.py:163} INFO - Started process (PID=2101) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:51:03,501] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:51:03,504] {logging_mixin.py:109} INFO - [2022-01-19 11:51:03,504] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:51:05,868] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:51:05,912] {logging_mixin.py:109} INFO - [2022-01-19 11:51:05,910] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:51:08,213] {logging_mixin.py:109} INFO - [2022-01-19 11:51:08,213] {process_utils.py:212} INFO - Waiting up to 5 seconds for processes to exit...
+[2022-01-19 11:54:25,038] {processor.py:163} INFO - Started process (PID=201) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:54:25,063] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:54:25,081] {logging_mixin.py:109} INFO - [2022-01-19 11:54:25,081] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:54:32,292] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:54:32,390] {logging_mixin.py:109} INFO - [2022-01-19 11:54:32,389] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:54:32,553] {logging_mixin.py:109} INFO - [2022-01-19 11:54:32,552] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:54:32,614] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 7.598 seconds
+[2022-01-19 11:55:05,351] {processor.py:163} INFO - Started process (PID=345) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:55:05,361] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:55:05,364] {logging_mixin.py:109} INFO - [2022-01-19 11:55:05,364] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:55:09,750] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:55:09,795] {logging_mixin.py:109} INFO - [2022-01-19 11:55:09,794] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:55:09,886] {logging_mixin.py:109} INFO - [2022-01-19 11:55:09,885] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:55:09,933] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 4.594 seconds
+[2022-01-19 11:55:40,164] {processor.py:163} INFO - Started process (PID=487) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:55:40,170] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:55:40,174] {logging_mixin.py:109} INFO - [2022-01-19 11:55:40,173] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:55:42,973] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:55:43,014] {logging_mixin.py:109} INFO - [2022-01-19 11:55:43,013] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:55:43,083] {logging_mixin.py:109} INFO - [2022-01-19 11:55:43,082] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:55:43,114] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.959 seconds
+[2022-01-19 11:56:13,989] {processor.py:163} INFO - Started process (PID=614) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:56:13,993] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:56:13,996] {logging_mixin.py:109} INFO - [2022-01-19 11:56:13,995] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:56:16,154] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:56:16,189] {logging_mixin.py:109} INFO - [2022-01-19 11:56:16,187] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:56:16,247] {logging_mixin.py:109} INFO - [2022-01-19 11:56:16,246] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:56:16,272] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.289 seconds
+[2022-01-19 11:56:46,397] {processor.py:163} INFO - Started process (PID=757) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:56:46,401] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:56:46,404] {logging_mixin.py:109} INFO - [2022-01-19 11:56:46,403] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:56:48,961] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:56:48,998] {logging_mixin.py:109} INFO - [2022-01-19 11:56:48,997] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:56:49,064] {logging_mixin.py:109} INFO - [2022-01-19 11:56:49,063] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:56:49,091] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.704 seconds
+[2022-01-19 11:57:19,643] {processor.py:163} INFO - Started process (PID=903) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:57:19,647] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:57:19,651] {logging_mixin.py:109} INFO - [2022-01-19 11:57:19,651] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:57:22,424] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:57:22,487] {logging_mixin.py:109} INFO - [2022-01-19 11:57:22,486] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:57:22,575] {logging_mixin.py:109} INFO - [2022-01-19 11:57:22,574] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:57:22,629] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.993 seconds
+[2022-01-19 11:57:53,159] {processor.py:163} INFO - Started process (PID=1029) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:57:53,163] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:57:53,165] {logging_mixin.py:109} INFO - [2022-01-19 11:57:53,165] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:57:55,209] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:57:55,242] {logging_mixin.py:109} INFO - [2022-01-19 11:57:55,241] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:57:55,303] {logging_mixin.py:109} INFO - [2022-01-19 11:57:55,303] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:57:55,329] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.177 seconds
+[2022-01-19 11:58:20,084] {processor.py:163} INFO - Started process (PID=1193) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:58:20,089] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:58:20,092] {logging_mixin.py:109} INFO - [2022-01-19 11:58:20,092] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:58:22,814] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:58:22,855] {logging_mixin.py:109} INFO - [2022-01-19 11:58:22,853] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:58:22,931] {logging_mixin.py:109} INFO - [2022-01-19 11:58:22,930] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:58:22,964] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.886 seconds
+[2022-01-19 11:58:31,720] {processor.py:163} INFO - Started process (PID=1295) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:58:31,725] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 11:58:31,730] {logging_mixin.py:109} INFO - [2022-01-19 11:58:31,730] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:58:34,347] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 11:58:34,384] {logging_mixin.py:109} INFO - [2022-01-19 11:58:34,383] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 11:58:34,444] {logging_mixin.py:109} INFO - [2022-01-19 11:58:34,443] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 11:58:34,460] {processor.py:174} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 168, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/dag_processing/processor.py", line 641, in process_file
+    dagbag.sync_to_db()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 608, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.7/site-packages/tenacity/__init__.py", line 349, in iter
+    return fut.result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 428, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.7/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 622, in sync_to_db
+    DAG.bulk_write_to_db(self.dags.values(), session=session)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2470, in bulk_write_to_db
+    DagCode.bulk_sync_to_db(filelocs, session=session)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagcode.py", line 113, in bulk_sync_to_db
+    os.path.getmtime(correct_maybe_zipped(fileloc)), tz=timezone.utc
+  File "/usr/local/lib/python3.7/genericpath.py", line 55, in getmtime
+    return os.stat(filename).st_mtime
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/MySQL_to_Redshift.py'
+[2022-01-19 12:04:20,930] {processor.py:163} INFO - Started process (PID=2502) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:04:20,935] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 12:04:20,939] {logging_mixin.py:109} INFO - [2022-01-19 12:04:20,939] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:04:23,793] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:04:25,120] {logging_mixin.py:109} INFO - [2022-01-19 12:04:25,119] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 12:04:25,206] {logging_mixin.py:109} INFO - [2022-01-19 12:04:25,206] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 12:04:25,254] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 4.333 seconds
+[2022-01-19 12:04:56,003] {processor.py:163} INFO - Started process (PID=2621) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:04:56,007] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 12:04:56,010] {logging_mixin.py:109} INFO - [2022-01-19 12:04:56,009] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:04:58,353] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:04:58,390] {logging_mixin.py:109} INFO - [2022-01-19 12:04:58,388] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 12:04:58,469] {logging_mixin.py:109} INFO - [2022-01-19 12:04:58,469] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 12:04:58,495] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.500 seconds
+[2022-01-19 12:05:29,113] {processor.py:163} INFO - Started process (PID=2766) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:05:29,117] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 12:05:29,121] {logging_mixin.py:109} INFO - [2022-01-19 12:05:29,120] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:05:31,578] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:05:31,615] {logging_mixin.py:109} INFO - [2022-01-19 12:05:31,613] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 12:05:31,670] {logging_mixin.py:109} INFO - [2022-01-19 12:05:31,669] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 12:05:31,694] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.589 seconds
+[2022-01-19 12:06:02,188] {processor.py:163} INFO - Started process (PID=2906) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:06:02,194] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 12:06:02,198] {logging_mixin.py:109} INFO - [2022-01-19 12:06:02,197] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:06:04,796] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:06:04,835] {logging_mixin.py:109} INFO - [2022-01-19 12:06:04,834] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 12:06:04,905] {logging_mixin.py:109} INFO - [2022-01-19 12:06:04,904] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 12:06:04,931] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.754 seconds
+[2022-01-19 12:06:35,735] {processor.py:163} INFO - Started process (PID=3028) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:06:35,738] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 12:06:35,741] {logging_mixin.py:109} INFO - [2022-01-19 12:06:35,741] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:06:37,986] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:06:38,025] {logging_mixin.py:109} INFO - [2022-01-19 12:06:38,023] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 12:06:38,109] {logging_mixin.py:109} INFO - [2022-01-19 12:06:38,108] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 12:06:38,141] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.413 seconds
+[2022-01-19 12:07:08,851] {processor.py:163} INFO - Started process (PID=3170) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:07:08,855] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 12:07:08,859] {logging_mixin.py:109} INFO - [2022-01-19 12:07:08,858] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:07:11,334] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:07:11,372] {logging_mixin.py:109} INFO - [2022-01-19 12:07:11,371] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 12:07:11,439] {logging_mixin.py:109} INFO - [2022-01-19 12:07:11,438] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 12:07:11,466] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.623 seconds
+[2022-01-19 12:07:41,591] {processor.py:163} INFO - Started process (PID=3316) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:07:41,597] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 12:07:41,600] {logging_mixin.py:109} INFO - [2022-01-19 12:07:41,600] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:07:44,430] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:07:44,486] {logging_mixin.py:109} INFO - [2022-01-19 12:07:44,484] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 12:07:44,550] {logging_mixin.py:109} INFO - [2022-01-19 12:07:44,549] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 12:07:44,577] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.994 seconds
+[2022-01-19 12:08:15,290] {processor.py:163} INFO - Started process (PID=3441) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:08:15,294] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 12:08:15,297] {logging_mixin.py:109} INFO - [2022-01-19 12:08:15,297] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:08:17,468] {processor.py:632} INFO - DAG(s) dict_keys(['MySQL_to_Redshift']) retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:08:17,505] {logging_mixin.py:109} INFO - [2022-01-19 12:08:17,503] {dag.py:2389} INFO - Sync 1 DAGs
+[2022-01-19 12:08:17,587] {logging_mixin.py:109} INFO - [2022-01-19 12:08:17,586] {dag.py:2914} INFO - Setting next_dagrun for MySQL_to_Redshift to 2022-01-18 09:00:00+00:00
+[2022-01-19 12:08:17,643] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 2.360 seconds
+[2022-01-19 12:10:00,270] {processor.py:163} INFO - Started process (PID=3843) to work on /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:10:00,278] {processor.py:620} INFO - Processing file /opt/airflow/dags/MySQL_to_Redshift.py for tasks to queue
+[2022-01-19 12:10:00,286] {logging_mixin.py:109} INFO - [2022-01-19 12:10:00,286] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:10:00,325] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/MySQL_to_Redshift.py
+[2022-01-19 12:10:00,329] {processor.py:171} INFO - Processing /opt/airflow/dags/MySQL_to_Redshift.py took 0.067 seconds

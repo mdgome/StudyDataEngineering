@@ -17,8 +17,8 @@ from airflow.operators.python import PythonOperator
 
 
 def _get_MySQL_Connection():
-    #import os
-    #sys.path.append(os.getcwd())    
+    import os
+    sys.path.append(os.getcwd())    
     # from mydb_credentials import aws_mysql_ec2_study_Driver
     # from mydb_credentials import *
 
@@ -53,38 +53,22 @@ def _get_MySQL_Connection():
         sys.exit(5)
 
 def DataToCSV(df):
-    import os
-    
-    path = os.getcwd()
-    mkdir_path = path + "/data/mysqlData"
-    if not os.path.exists(mkdir_path):
-        os.mkdir(mkdir_path)
-    
-    now_date = datetime.now().strftime('%Y.%m.%d_%H.%M')
+    from pathlib import Path
+    now_date = datetime.now().strftime('%Y.%m.%d.%H.%M')
     file_name = now_date+"_output.csv"
-    output_file = mkdir_path+"/"+file_name
-    
-    df.to_csv(output_file,index=False)
-    if os.path.isfile(output_file) :
-        logging.info('File Created: ', output_file)
-def load():
-    cur = _get_MySQL_Connection()
-    sql = "select name, email from member;"
-    cur.execute(sql)
-    result = cur.fetchall()
-    df = DataFrame(result)    
-    
-    return df
+    mkdirPath = Path("./data/mysqlData")
+    mkdirPath.mkdir(parents=True, exist_ok=True)
+    df.to_csv(mkdirPath/file_name,index=False)
 
 def etl():
     df = load()
     DataToCSV(df)
 
 dag_second_assingnment = DAG(
-    dag_id='MySQLTOCsv',
+    dag_id='second_assingnment',
     catchup = False,
-    start_date = datetime(2022,1,19),
-    schedule_interval = '20 * * * *'
+    start_date = datetime(2022,1,14),
+    schedule_interval = '0 * * * *'
 )
 
 task = PythonOperator(
