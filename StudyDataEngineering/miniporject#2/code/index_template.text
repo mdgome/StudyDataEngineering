@@ -1,0 +1,41 @@
+PUT _template/airflow-web-log
+{
+    "index_patterns": "airflow-web-log*",
+    "settings": {
+        "number_of_shards": 2,
+        "number_of_replicas": 1,
+        "index.mapping.ignore_malformed": true
+    },
+    "mappings": {
+        "properties": {
+            "datetime": {
+                "type": "date",
+                "fields": {
+                    "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                    }
+                },
+                "format": "yyyy-MM-dd HH:mm:ss Z"
+            },
+            "log-level": {
+                "type": "text",
+                "fields": {
+                    "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 20
+                    }
+                }
+            },
+            "message": {
+                "type": "text",
+                "fields": {
+                    "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 37000
+                    }
+                }
+            }
+        }
+    }
+}
