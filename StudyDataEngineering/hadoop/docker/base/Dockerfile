@@ -4,19 +4,18 @@ RUN { \
 	echo '#!/bin/sh'; \
 	echo 'set -e'; \
 	echo; \
-	echo 'dirname "$(dirname "$(readlink -f "$(which javac || which java)")")"'; \
+	echo 'dirname "$(dirname "$(readlink -f "$(which java)")")"'; \
 	} > /usr/local/bin/docker-java-home \
 	&& chmod +x /usr/local/bin/docker-java-home
 
-ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.312.b07-1.el7_9.aarch64
+ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.312.b07-1.el7_9.aarch64/jre
 
 ENV JAVA_VERSION=8u3112
 ENV JAVA_CENTOS_VERSION=1.8.0.312.b07-1.el7_9.aarch64
 
 RUN set -x \
 	&& yum update -y \
-	&& yum install which -y \
-	&& yum install perl -y \
+	&& yum install which perl nc -y \
 	&& yum install  -y \
 	java-1.8.0-openjdk-$JAVA_CENTOS_VERSION \
 	&& JAVA_HOME=$(docker-java-home)\
