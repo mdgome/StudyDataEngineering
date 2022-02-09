@@ -1,15 +1,5 @@
 FROM centos:7
 
-# A few problems with compiling Java from source:
-#  1. Oracle.  Licensing prevents us from redistributing the official JDK.
-#  2. Compiling OpenJDK also requires the JDK to be installed, and it gets
-#       really hairy.
-
-# Default to UTF-8 file.encoding
-ENV LANG C.UTF-8
-
-# add a simple script that can auto-detect the appropriate JAVA_HOME value
-# based on whether the JDK or only the JRE is installed
 RUN { \
 	echo '#!/bin/sh'; \
 	echo 'set -e'; \
@@ -18,16 +8,20 @@ RUN { \
 	} > /usr/local/bin/docker-java-home \
 	&& chmod +x /usr/local/bin/docker-java-home
 
-ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.321-5.b12.el7_4.x86_64
+ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.312.b07-1.el7_9.aarch64
 
 ENV JAVA_VERSION=8u3112
-ENV JAVA_CENTOS_VERSION=1.8.0.312.b07-1.el7_9
+ENV JAVA_CENTOS_VERSION=1.8.0.312.b07-1.el7_9.aarch64
 
 RUN set -x \
-	&& yum install -y \
-	java-1.8.0-openjdk-"$JAVA_CENTOS_VERSION" which \
-	&& [ "$JAVA_HOME" = "$(docker-java-home)" ] \
+	&& yum update -y \
+	&& yum install which -y \
+	&& yum install perl -y \
+	&& yum install  -y \
+	java-1.8.0-openjdk-$JAVA_CENTOS_VERSION \
+	&& JAVA_HOME=$(docker-java-home)\
 	&& yum clean all
+RUN echo ${JAVA_HOME}
 
 # ENV HADOOP_HOME=/hadoop
 
@@ -37,10 +31,6 @@ RUN set -x \
 # RUN groupadd -g 1000 hadoop \
 # 	&& useradd -u 1000 -g hadoop -d /hadoop hadoop\
 # 	&& mkdir -p /var/log/hadoop
-
-# USER hadoop
-
-# WORKDIR ${HADOOP_HOME}
 
 # ENV PATH=${PATH}:${HADOOP_HOME}/bin
 # ENV HADOOP_HOME=${HADOOP_HOME}
@@ -54,6 +44,7 @@ RUN set -x \
 # ENV PATH=$PATH:${HADOOP_HOME}/sbin:${HADOOP_HOME}/bin
 # ENV HADOOP_CONF_DIR =${HADOOP_HOME}/etc/hadoop
 
+# USER hadoop
 # WORKDIR ${HADOOP_HOME}
 
 # RUN ssh-keygen -q -N "" -t rsa -P '' \
