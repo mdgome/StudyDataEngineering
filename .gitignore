@@ -208,3 +208,5 @@ StudyDataEngineering/ELK/data/
 
 # Hadoop Log
 StudyDataEngineering/hadoop/docker/hadoop/dfs/
+StudyDataEngineering/hadoop/docker/hadoop/dfs/data/
+StudyDataEngineering/hadoop/docker/hadoop/dfs/name/
