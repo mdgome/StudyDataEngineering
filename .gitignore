@@ -204,7 +204,7 @@ cython_debug/
 StudyDataEngineering/airflow/docker/logs/
 
 # ElasticSearch data
-StudyDataEngineering/ELK/data
+StudyDataEngineering/ELK/data/
 
 # Hadoop Log
-StudyDataEngineering/hadoop/docker/hadoop/dfs
+StudyDataEngineering/hadoop/docker/hadoop/dfs/
