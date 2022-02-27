@@ -21,6 +21,8 @@ services:
     image: mdgome/hadoop-datanode-java-1.8.0
     container_name: datanode
     restart: always
+    ports:
+      - 9864:9864
     volumes:
       - ./hadoop/dfs/data:/hadoop/dfs/data
     depends_on:
@@ -36,6 +38,8 @@ services:
     image: mdgome/hadoop-resourcemanager-java-1.8.0
     container_name: resourcemanager
     restart: always
+    ports: 
+      - 8088:8088
     depends_on:
       - namenode
       - datanode
