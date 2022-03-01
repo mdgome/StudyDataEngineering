@@ -210,3 +210,6 @@ StudyDataEngineering/ELK/data/
 StudyDataEngineering/hadoop/docker/hadoop/dfs/
 StudyDataEngineering/hadoop/docker/hadoop/dfs/data/
 StudyDataEngineering/hadoop/docker/hadoop/dfs/name/
+
+# Python Config File
+*.ini
