@@ -18,28 +18,25 @@ from airflow.operators.python import PythonOperator
 
 def _get_MySQL_Connection():
     import os
-    sys.path.append(os.getcwd())    
-    # from mydb_credentials import aws_mysql_ec2_study_Driver
-    # from mydb_credentials import *
+    import configparser
+    from pathlib import Path
+    sys.path.append(os.getcwd())
+    
+    config = configparser.ConfigParser()
+    config.read(Path("./config/config.ini"),encoding='utf-8')
+    # config.read(os.getcwd()+os.sep+'config'+os.sep+'config.ini',encoding='utf-8')
 
-    host = "ec2-15-164-164-229.ap-northeast-2.compute.amazonaws.com"
-    user = "mdgome"  # 본인 ID 사용
-    password = "Rlawjdals1!"  # 본인 Password 사용
-    port = 3306
-    dbname = "airflow"
-    charset='utf8'
-    encoding='utf-8'
-    # user = aws_mysql_ec2_study_Driver['user']
-    # password = aws_mysql_ec2_study_Driver['password']
-    # host = aws_mysql_ec2_study_Driver['host']
-    # port = aws_mysql_ec2_study_Driver['port']
-    # dbname = aws_mysql_ec2_study_Driver['dbname']
-    # charset = aws_mysql_ec2_study_Driver['charset']
+    user = config['aws_ec2_mysql']['user']
+    password = config['aws_ec2_mysql']['password']
+    host = config['aws_ec2_mysql']['host']
+    port = config['aws_ec2_mysql']['port']
+    dbname = config['aws_ec2_mysql']['dbname']
+    charset = config['aws_ec2_mysql']['charset']
 
     try:
         conn = pymysql.connect(
             host=host,
-            port=port,
+            port=int(port),
             user=user,
             password=password,
             db=dbname,
