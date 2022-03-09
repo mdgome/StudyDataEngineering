@@ -1,0 +1,10 @@
+,Unnamed: 0,Src Zone,Src_Address,Dst Zone,Dst_Address,Service,App,URL,Action,Last Matched (days ago),사용유무
+47,47,trust,10.248.193.78,untrust,192.168.181.29,tcp-1433,mssql-db,any,permit,350.0,
+50,50,trust,10.248.193.111,trust,10.249.8.225,tcp-8888,any,any,permit,196.0,
+145,145,trust,10.248.193.247,untrust,192.168.48.241,tcp_8888,any,any,permit,310.0,
+151,151,untrust,10.168.240.214,trust,10.248.193.231,tcp_22,ssh,any,permit,350.0,
+152,152,untrust,10.168.240.214,trust,10.248.193.234,tcp_22,ssh,any,permit,350.0,
+153,153,untrust,10.168.246.81,trust,10.248.193.229,tcp_3306,mysql,any,permit,,
+161,161,trust,10.248.193.234,trust,192.168.181.229,tcp_3433,any,any,permit,309.0,
+162,162,trust,10.248.193.234,untrust,192.168.206.14,tcp_25,smtp,any,permit,309.0,
+163,163,trust,10.248.193.234,untrust,192.168.237.14,tcp_25,smtp,any,permit,309.0,
