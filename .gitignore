@@ -9,6 +9,7 @@ StudyDataEngineering/airflow/docker/logs
 # website: http://jupyter.org/
 
 .ipynb_checkpoints
+.ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
 # IPython
@@ -214,3 +215,9 @@ StudyDataEngineering/hadoop/docker/hadoop/dfs/name/
 
 # Python Config File
 *.ini
+
+.vscode
+.vscode/
+*/.vscode/*
+*/.vscode/
+*/.vscode
