@@ -1,0 +1,17 @@
+FROM centos:7
+# == docker pull centos:7
+
+RUN yum update -y \
+    && yum install -y https://dev.mysql.com/get/mysql80-community-release-el7-3.noarch.rpm \
+    && yum install -y mysql-server \
+    && systemctl start mysqld \
+    && systemctl enable mysqld
+
+# MySQL Root 비밀번호 
+ENV mysql_password='password!!'
+
+# MySQL Root 비밀번호를 위 비밀번호로 변경
+RUN password_match=`awk '/A temporary password is generated for/ {a=$0} END{ print a }' /var/log/mysqld.log | awk '{print $(NF)}'`; \
+    echo $password_match \
+    mysql -uroot -p$password_match --connect-expired-password -e "ALTER USER 'root'@'localhost' IDENTIFIED BY '$mysql_password'; flush privileges; " \
+# RUN 은 위에서 가져온 이미지를 컨테이너로 만든 다음 컨테이너 안에서 명령어 실행하는 것
