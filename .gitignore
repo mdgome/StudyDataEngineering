@@ -221,3 +221,9 @@ StudyDataEngineering/hadoop/docker/hadoop/dfs/name/
 */.vscode/*
 */.vscode/
 */.vscode
+
+.gitignore
+
+playadata/python/*
+playadata/python/
+playadata/python
