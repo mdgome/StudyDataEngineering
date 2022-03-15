@@ -73,5 +73,3 @@ task = PythonOperator(
     python_callable = etl,
     dag = dag_second_assingnment
 )
-
-
