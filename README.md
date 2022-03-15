@@ -21,6 +21,12 @@ mdgome3@gmail.com
 
 4. Spark
   - Dataframe
-  - Typecast
+  - Type cast
   - Simple descriptive statistics
+  - Join
+  - Query
+  - Output for File/Database
+    - MySQL/Mongo
+    - CSV
+    - txt
 
